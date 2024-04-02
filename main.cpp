@@ -7,8 +7,13 @@ int main() {
     vector<int> arr={4,3,6,2,8,9,5};
     vector<int> a={1,2,3,4,5,6,7,8,9};
     vector<int> b={1,2,3,4,5,6,7,8,9};
-    shell_sort(arr);
+    // selection_sort_double_for_loop_desc(arr);
+    // shell_sort_swap(arr);
+    // cout<<endl;
+    // shell_sort_swap_desc(a);
     // selection_sort_desc(arr);
+    // merge_sort(arr,0,arr.size()-1);
+    quick_sort(arr,0,arr.size()-1);
     return 0;
 }
 
